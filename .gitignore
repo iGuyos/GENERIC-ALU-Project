@@ -1,0 +1,7 @@
+# Simulation output files
+*.vcd
+*_sim
+alu_sim
+
+# Temporary files
+.mypy_cache/
