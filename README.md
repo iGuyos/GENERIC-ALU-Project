@@ -107,25 +107,27 @@ These checks run automatically during simulation and immediately flag violations
 
 ```
 GENERIC-ALU-Project/
-
-├── src/                      # Source Files (Design Under Test)
-│   ├── alu_generic.v         # Top-level ALU module
-│   ├── adder_subtractor.v    # Arithmetic unit
-│   ├── logic_unit.v          # Logic operations
-│   └── shifter_unit.v        # Shift operations
-│
-├── tb/                       # Verification Environment
-│   ├── alu_dual_system_tb.v  # Full ALU system testbench
+├── assets/            
+│   └── alu_waveform.png // Simulation waveform screenshot
+├── src/               
+│   ├── alu_generic.v   // Top-level ALU module
+│   ├── adder_subtractor.v
+│   ├── logic_unit.v
+│   └── shifter_unit.v
+├── tb/                 
+│   ├── alu_dual_system_tb.v // Full ALU system testbench
 │   ├── adder_subtractor_tb.v
 │   ├── logic_unit_tb.v
 │   └── shifter_unit_tb.v
-│
-└── README.md
+├── .gitignore          
+└── README.md           
 ```
 
 ---
 
 ## Simulation & Verification
+
+![ALU Waveform Results](assets/alu_waveform.png)
 
 The project is compatible with:
 
